@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.priority-low {
+  @apply bg-blue-50 text-blue-600;
+}
+.priority-medium {
+  @apply bg-amber-50 text-amber-600;
+}
+.priority-high {
+  @apply bg-red-50 text-red-600;
+}
+
+.overdue {
+  @apply bg-red-100 text-red-600;
+}
+.soon {
+  @apply bg-orange-100 text-orange-600;
+}
